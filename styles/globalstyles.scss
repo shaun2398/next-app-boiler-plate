@@ -1,0 +1,70 @@
+// my styles
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+// Colors
+$teal: #008080;
+$white: #FFFFFF;
+$grey: #C1C1C1;
+$black: #000000;
+$pink: #F8C8DC;
+
+// font sizes
+$landing-page-title: 4rem;
+$landing-page-subtitle: 3.75rem;
+$section-title: 2.5rem;
+$section-subtitle: 2rem;
+$paragraph: 1rem;
+
+// Variables
+$family-sans-serif: "Roboto", sans-serif;
+$primary: $teal;
+$light: $white;
+$light-secondary: $grey;
+$dark: $black;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+
+//Typography
+$size-1: $landing-page-title; //h1 for landing page title only
+$size-2: $landing-page-subtitle; //h2 for landing page subtitle only
+$size-3: $section-title; //h3 section page title
+$size-4: $paragraph; // h4 section page subtitle
+$size-5: $paragraph; //paragraph
+$size-5: $paragraph; 
+$size-6: $paragraph; 
+
+
+//content and others
+$link: $light;
+$link-hover: $light-secondary;
+$body-background-color: $light;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+$background: $white;
+
+// Components
+
+// navbar
+$navbar-background-color: $primary;
+$navbar-item-color: $light;
+$navbar-item-hover-color: $light-secondary;
+$navbar-item-hover-background-color: transparent;
+$navbar-burger-color: $primary;
+$navbar-padding-horizontal: 2rem;
+
+// landing
+
+$button-padding-vertical: 1.5rem ;
+$button-padding-horizontal: 1.5rem;
+// $icon-dimensions-large: 10rem;
+
+// footer
+$footer-background-color: $primary;
+
+// Import only what you need from Bulma
+@import "~bulma/bulma.sass";
